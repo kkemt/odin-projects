@@ -79,26 +79,39 @@ body {
 }
 
 .hero-text-wrapper > div {
-    margin: 0 10%;
+    margin: 3px 10%;
     box-sizing: border-box;
 }
 
 .hero-button {
-    width: 20%;
-    color: white;
     background-color: #3882f6;
-    font-weight: 300;;
+    width: 20%;    
+    color: white;
+    padding: 10px;
+    font-weight: 300;
     text-align: center;
+    border-radius: 10px;
+}
+
+.hero-img-wrapper {
+    flex: 1;
 }
 
 .hero-img {
+    width: 80%;
+    height: 50%;
+    margin: 25% 0;
     background-color: grey;
-    flex: 1;
 }
-.image-wrapper {
+
+.image-main-wrapper {
     display: flex;
     flex-direction: row;
     flex-grow: 5;
+}
+
+.image-wrapper {
+    
 }
 
 .quote-wrapper {
